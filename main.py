@@ -14,6 +14,7 @@ start_board = [
 
 
 def solve_board(board):
+    
     time.sleep(0.01)
     print_board(board)
     print("\n")
@@ -35,6 +36,7 @@ def solve_board(board):
             board[row][col] = 0
             
     return False
+
 
 def is_valid(board, num, pos):
     
